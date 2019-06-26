@@ -145,15 +145,15 @@ ul.unstyled {
 #myCarousel .item { height: 400px; }
 
 #slide1 {
-	background: url('../img/slide.jpg') top center no-repeat;
+	background: url('../img/slidee1.jpg') top center no-repeat;
 }
 
 #slide2 {
-	background: url('../img/slide.jpg') top center no-repeat;
+	background: url('../img/slidee2.jpg') top center no-repeat;
 }
 
 #slide3 {
-	background: url('../img/slide.jpg') top center no-repeat;
+	background: url('../img/slide3.jpg') top center no-repeat;
 }
 
 
@@ -168,15 +168,15 @@ ul.unstyled {
 	#myCarousel .item { height: 310px; }
 	
 	#slide1 {
-		background: url('../../img/slide.jpg') top center no-repeat;
+		background: url('../../img/slidee1.jpg') top center no-repeat;
 	}
 	
 	#slide2 {
-		background: url('../../img/slide.jpg') top center no-repeat;
+		background: url('../../img/slidee2.jpg') top center no-repeat;
 	}
 	
 	#slide3 {
-		background: url('../../img/slide.jpg') top center no-repeat;
+		background: url('../../img/slide3.jpg') top center no-repeat;
 	}
 	
 
@@ -191,15 +191,15 @@ ul.unstyled {
 	#myCarousel .item { height: 310px; }
 	
 	#slide1 {
-		background: url('../../img/slide.jpg') top center no-repeat;
+		background: url('../../img/slidee1.jpg') top center no-repeat;
 	}
 	
 	#slide2 {
-		background: url('../../img/slide.jpg') top center no-repeat;
+		background: url('../../img/slidee2.jpg') top center no-repeat;
 	}
 	
 	#slide3 {
-		background: url('../../img/slide.jpg') top center no-repeat;
+		background: url('../../img/slide3.jpg') top center no-repeat;
 	}
 	
 	
@@ -211,15 +211,15 @@ ul.unstyled {
 	#myCarousel .item { height: 400px; }
 	
 	#slide1 {
-		background: url('../../img/slide.jpg') top center no-repeat;
+		background: url('../../img/slidee1.jpg') top center no-repeat;
 	}
 	
 	#slide2 {
-		background: url('../../img/slide.jpg') top center no-repeat;
+		background: url('../../img/slidee2.jpg') top center no-repeat;
 	}
 	
 	#slide3 {
-		background: url('../../img/slide.jpg') top center no-repeat;
+		background: url('../../img/slide3.jpg') top center no-repeat;
 	}
 
 }
