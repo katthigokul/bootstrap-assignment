@@ -1,126 +1,246 @@
 <!DOCTYPE html>
+
 <html>
+	<head>
+		
+		<!-- Website Title & Description for Search Engine purposes -->
+		<title>KGS</title>
+		<meta charset="utf-8">
+		
+		<!-- Mobile viewport optimized -->
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+		
+		<!-- Bootstrap CSS -->
+		<link href="css/bootstrap.min.css" rel="stylesheet">
 
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Amazon.com: Online Shopping for Electronics, Apparel, Computers, Books, DVDs &amp; more</title>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  <link rel="stylesheet" href="css/960.css"/>
+		<!-- Custom CSS -->
+		<link rel="stylesheet" href="css/styles.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		
+		<script src="js/jquery-1.8.2.min.js" ></script>
+		<script src="js/bootstrap.min.js" ></script>
+		<script src="js/script.js"></script>
+	</head>
+	<body>
+			<div class="container" id="main">
+		
+			<div class="navbar navbar-fixed-top" id="header">
+				<div class="container" >
+					
+					<!-- .btn-navbar is used as the toggle for collapsed navbar content -->
+					<button class="navbar-toggle" data-target=".navbar-responsive-collapse" data-toggle="collapse" type="button">
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+				
+					<a class="navbar-brand" href="#"><img  class="logo" src="img/logo.png" alt="KGS"></a>
+					
+					<div class="nav-collapse collapse navbar-responsive-collapse">
+						<ul class="nav navbar-nav">
+							<li class="active">
+								<a href="index.html">Home</a>
+							</li>
+							<li>
+								<a href="#">About</a>
+							</li>
+							<li>
+								<a href="contact/contact.html">Contact us</a>
+							</li>
+							
+						</ul>
+						
+						<form class="navbar-form pull-left">
+							<input type="text" class="form-control" placeholder="Search this site..." id="searchInput">
+							<button type="submit" class="btn btn-default"><span> <i class="fa fa-search" aria-hidden="true"></i></span></button>
+						</form><!-- end navbar-form -->
+						
+						<ul class="nav navbar-nav pull-right">
+							<li class="dropdown">
+								<a href="#" class="dropdown-toggle" data-toggle="dropdown"><span><i class="fa fa-user-circle" aria-hidden="true"></i></span> My Account <strong class="caret"></strong></a>
+								
+								<ul class="dropdown-menu">
+									<li>
+										<a href="#"><span> <i class="fa fa-wrench" aria-hidden="true"></i></span >Settings</a>
+									</li>
+									
+									<li>
+										<a href="#"><span><i class="fa fa-refresh" aria-hidden="true"></i></span> Update Profile</a>
+									</li>
+									
+									<li>
+										<a href="#"><span><i class="fa fa-briefcase" aria-hidden="true"></i></span> Billing</a>
+									</li>
+									
+									<li class="divider"></li>
+									
+									<li>
+										<a href="#"><span><i class="fa fa-power-off" aria-hidden="true"></i></span> Sign out</a>
+									</li>
+								</ul>
+							</li>
+						</ul><!-- end nav pull-right -->
+					</div><!-- end nav-collapse -->
+				
+				</div><!-- end container -->
+			</div><!-- end navbar -->
 
-  <link rel="stylesheet" href="css/style.css"/>
-</head>
+			<div class="carousel slide" id="myCarousel">
+			
+				<!-- Indicators -->
+				<ol class="carousel-indicators">
+					<li class="active" data-slide-to="0" data-target="#myCarousel"></li>
+					<li data-slide-to="1" data-target="#myCarousel"></li>
+					<li data-slide-to="2" data-target="#myCarousel"></li>
+				</ol>
+			
+				<!-- Wrapper for slides -->
+				<div class="carousel-inner">
+					<div class="item active" id="slide1">
+						<img src="img/slidee1.jpg" alt="Electronics"/>
+						<div class="carousel-caption">
+							<h4>Electronics</h4>
+						</div><!-- end carousel-caption-->
+					</div><!-- end item -->
+					
+					<div class="item" id="slide2">
+						<img src="img/slidee2.jpg" alt="clothing"/>
+						<div class="carousel-caption">
+							<h4>Clothing</h4>
+						</div><!-- end carousel-caption-->
+					</div><!-- end item -->
+					
+					<div class="item" id="slide3">
+						<img src="img/Slide3.jpg" alt="Footwear"/>
+						<div class="carousel-caption">
+							<h4>Foot wear</h4>
+						</div><!-- end carousel-caption-->
+					</div><!-- end item -->
+				</div><!-- carousel-inner -->
+				
+				<!-- Controls -->
+				<a class="left carousel-control" data-slide="prev" href="#myCarousel"><span class="icon-prev"></span></a>
+				<a class="right carousel-control" data-slide="next" href="#myCarousel"><span class="icon-next"></span></a>
+			
+			</div><!-- end myCarousel -->
 
-<body>
-  <!-- Main body -->
+			
+			<div class="row" id="featuresHeading">
+				<div class="col-12">
+					<h2>products</h2>
+					<p class="lead">Lorem Ipsum is simply dummy text of the printing and type setting industry.</p>
+				</div><!-- end col-12 -->
+			</div><!-- end featuresHeading -->
+			
+			
+			<div class="row" id="features">
+				<div class="col-sm-4 feature">
+					<div class="panel">
+						<div class="panel-heading">
+							<h3 class="panel-title">Home needs</h3>
+						</div><!-- end panel-heading -->
+						<img src="img/Homeneeds	.jpg" alt="Home needs" class="img-circle">
+						
+						<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+						
+						<a href="#" target="_blank" class="btn btn-primary btn-block">Buy Now</a>
+					</div><!-- end panel -->
+				</div><!-- end feature -->
+				
+				<div class="col-sm-4 feature">
+					<div class="panel">
+						<div class="panel-heading">
+							<h3 class="panel-title">Mens clothing</h3>
+						</div><!-- end panel-heading -->
+						<img src="img/clothing.jpg" alt="Men clothing" class="img-circle">
+						
+						<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+						
+						<a href="#" target="_blank" class="btn btn-primary btn-block">Buy Now</a>
+					</div><!-- end panel -->
+				</div><!-- end feature -->
+				
+				<div class="col-sm-4 feature">
+					<div class="panel">
+						<div class="panel-heading">
+							<h3 class="panel-title">Electronics</h3>
+						</div><!-- end panel-heading -->
+						<img src="img/product_4.jpg" alt="Electronics" class="img-circle">
+						
+						<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+						
+						<a href="#" target="_blank" class="btn btn-primary btn-block">Buy Now</a>
+					</div><!-- end panel -->
+				</div><!-- end feature -->
+			</div><!-- end features -->	
 
-  <header>
-    <a id="nav-top"></a>
+			<div class="row" id="moreCourses">
+				<div class="col-12">
+					<h3>New Arrivals</h3>
+					<div class="thumbnails row">
+						<div class="col-6">
+							<div class="thumbnail">
+								<img src="img/slide_2.jpg" alt="Product1">
+								
+								<div class="caption">
+									<h3>Fire TV</h3>
+									
+									<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
+									
+									<p><a a href="#myModal" role="button" class="btn btn-primary btn-block">Buy Now</a></p>
+								</div><!-- end caption -->
+							</div><!-- end thumbnail -->
+						</div><!-- end col-6 -->
+						
+						<div class="col-6">
+							<div class="thumbnail">
+								<img src="img/slide_1.jpg" alt="product1">
+								<div class="caption">
+									<h3>Prime Videos</h3>
+									
+									<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+									
+									<p><a href="#" target="_blank" class="btn btn-primary btn-block">Buy Now</a></p>
+								</div><!-- end caption -->
+							</div><!-- end thumbnail -->
+						</div><!-- end col-6 -->
+					</div><!-- end row -->
+				</div><!-- end col-12 -->
+			</div><!-- end moreCourses -->						
+		</div><!-- end container -->
 
-    <div id="nav-belt">
-      <div class="nav-left">
-        <div id="nav-logo">
-          <a href="#" class="nav-logo-link"></a>
-          <a href="#" class="nav-logo-tagline">Try Prime</a>
-        </div>
-      </div>
-      <div class="nav-right">
-        <div id="nav-holiday">
-          <a href="#"></a>
-        </div>
-      </div>
-      <div class="nav-fill">
-        <div id="nav-search">
-          <form>
-            <div class="nav-left">
-              <span class="nav-search-label">All</span>
-              </div>
-            <div class="nav-right">
-              <i class="fa fa-search" aria-hidden="true"></i>
-              <input type="submit">
-            </div>
-            <div class="nav-fill">
-              <input type="text" autocomplete="off">
-            </div>
-          </form>
-        </div>
-      </div>
-    </div>
-    <nav id="nav-main">
-      <div class="nav-left">
-        <div class="nav-shop">
-          <a class="nav-a" href="#">
-            Departments
-            <i class="fa fa-caret-down" aria-hidden="true"></i>
-          </a>
-        </div>
-      </div>
-      <div class="nav-right">
-        <a class="nav-a" href="#">
-          <span>EN</span>
-          <i class="fa fa-globe" aria-hidden="true"></i>
-          <i class="fa fa-caret-down" aria-hidden="true"></i>
-        </a>
+		
+		<footer>
+			<div class="container">
+				<div class="row">
+					<div class="col-sm-2">
+					<h6><img src="img/logo.png"/> &copy 2019</h6>
+					</div><!-- end col-sm-2 -->
+					
+					<div class="col-sm-4">
+						<h6>About Us</h6>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+					</div><!-- end col-sm-4 -->
+					
+					<div class="col-sm-2">
+						<h6>Navigation</h6>
+						<ul class="unstyled">
+							<li><a href="index.html">Home</a></li>
+							<li><a href="#">About</a></li>
+							<li><a href="contact/contact.html">Contact us</a></li>
+						</ul>
+					</div><!-- end col-sm-2 -->
+					
+					<div class="col-sm-2" id="social-icons">
+						<h6>Follow Us</h6>
+							<a href="#" class="fa fa-twitter"></a>
+                            <a href="#" class="fa fa-instagram"></a>
+                             <a href="#" class="fa fa-google"></a>
+						</ul>
+					</div><!-- end col-sm-2 -->
+				</div><!-- end row -->
+			</div><!-- end container -->
+		</footer>
+	</body>
+</html>
 
-        <a class="nav-a" href="#">
-          <span>Hello. Sign in</span>
-          Accounts &amp; Lists
-          <i class="fa fa-caret-down" aria-hidden="true"></i>
-        </a>
-
-        <a class="nav-a" href="#">
-          Orders
-        </a>
-
-        
-        <a class="nav-a cart" href="#">
-          <span>0</span>
-          Cart
-        </a>
-      </div>
-      <div class="nav-fill">
-        <ul>
-          <li><a href="#">Your Amazon.com</a></li>
-          <li><a href="#">Today's Deals</a></li>
-          <li><a href="#">Gift Cards &amp; Registry</a></li>
-          <li><a href="#">Sell</a></li>
-          <li><a href="#">Help</a></li>
-        </ul>
-      </div>
-    </nav>
-  </header>
-  <div class="container_12">
-      <div class="grid_6" >
-        <img id="img1"  src="./img/product_1.jpg" /><br>
-      </div>
-
-      <div class="grid_6">
-        <img id="img2" src="./img/product_2.jpg" />
-      </div>
-  </div>
-  <div class="container_12">
-      <div class="grid_6" >
-        <img id="img3"  src="./img/product_6.jpg" />
-      </div>
-
-      <div class="grid_6">
-        <img id="img4" src="./img/product_4.jpg" />
-      </div>
-  </div>
-
-   <!---- footer part--->
-    <footer>
-    <div class="fb-body-footer">
-        <div id="fb-body-footer-base" class="fb-body-footer">English (UK)
-         Amazon &copy;2019&nbsp;&nbsp;
-         <a href="#" class="fa fa-twitter"></a>
-         <a href="#" class="fa fa-instagram"></a>
-         <a href="#" class="fa fa-facebook"></a>
-       </div>
-
-      </div>
-    </footer>
-  </body>
-    </html>
-
-  
